@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 12px;
+    background-color: rgb(228, 228, 228);
+    padding-bottom: 12px;
+}
+
+header {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.grid {
+    display: flex;
+}
+
+
+.settings {
+    display: flex;
+    gap: 16px;
+    justify-content: space-evenly;
+}
+
+button {
+    font-size: 20px;
+    padding: 4px 20px;
+    flex: 1;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.grid {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
