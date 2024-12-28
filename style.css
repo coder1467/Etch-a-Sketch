@@ -17,8 +17,8 @@ body {
 header {
     display: block;
     text-align: center;
-    padding: 20px;
-    font-size: 28px;
+    padding: 12px;
+    font-size: 24px;
 }
 
 main {
@@ -50,10 +50,28 @@ main {
 button {
     font-size: 20px;
     padding: 4px 20px;
-    flex: 1;
     border: none;
-    border-radius: 6px;
+    flex: 1;
+    border-radius: 8px;
     background-color: white;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
 }
 
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+input[type="color"] {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
